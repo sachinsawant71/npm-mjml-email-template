@@ -3,13 +3,32 @@
   "version": "1.0.0",
   "description": "Simple MJML email template, provided with a NPM script to transform template to HTML. A sendmail script is provided to test the email rendering in a MailHog local config.",
   "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/washaweb/npm-mjml-email-template.git"
+  },
   "scripts": {
     "build": "mjml -r src/template.mjml -o build/template.html && open build/template.html",
     "watch": "mjml -r src/template.mjml -o build/template.html && open build/template.html && mjml -w src/template.mjml -o build/template.html",
     "test": "node sendmail.js"
   },
   "author": "Jérôme Poslednik <webmaster@washaweb.com>",
-  "license": "MIT Licence",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/washaweb/npm-mjml-email-template/issues"
+  },
+  "homepage": "https://github.com/washaweb/npm-mjml-email-template#readme",
+  "keywords": [
+    "npm",
+    "mjml",
+    "email",
+    "template",
+    "build",
+    "sendmail",
+    "no",
+    "smtp",
+    "mailhog"
+  ],
   "dependencies": {
     "fs": "0.0.1-security",
     "mjml": "^3.2.2",
