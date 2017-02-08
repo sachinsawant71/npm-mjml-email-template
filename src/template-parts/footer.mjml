@@ -1,0 +1,49 @@
+<!-- footer.mjml -->
+<mj-section>
+  <mj-column width="600">
+    <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" padding="30 15" />
+  </mj-column>
+  <mj-column width="180">
+    <mj-text
+      align="center"
+      color="#000"
+      font-size="12"
+      padding="15 0"
+      mj-class="sans-serif caps"
+      >
+      <a href="#" style="text-decoration: none; color: #000">www.yourwebsite.com</a>
+    </mj-text>
+  </mj-column>
+  <mj-column width="280">
+  </mj-column>
+  <mj-column width="140">
+        <mj-social
+            mode="horizontal"
+            text-mode="false"
+            display="facebook twitter google"
+            facebook-href="https://www.facebook.com"
+            twitter-href="https://www.twitter.com"
+            google-href="https://plus.google.com"
+             />
+  </mj-column>
+</mj-section>
+<mj-section background-color="#E8E8E8" full-width="full-width" padding="15">
+  <mj-column width="140">
+    <mj-image
+      padding="5"
+      href="http://www.yourwebsite.com"
+      align="left"
+      width="100"
+      src="http://placehold.it/100x34?text=FOOTER+LOGO" />
+  </mj-column>
+  <mj-column width="420">
+    <mj-text
+      padding="5"
+      font-size="10px"
+      line-height="16px"
+      color="#404040"
+      mj-class="sans-serif">
+        © 2017 - yourwebsite.com  - This is an automatic email sent from [www.yourwebsite.com] Please do not reply directly.
+    </mj-text>
+  </mj-column>
+</mj-section>

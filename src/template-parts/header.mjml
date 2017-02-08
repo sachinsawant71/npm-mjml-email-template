@@ -1,0 +1,23 @@
+<!-- header.mjml -->
+<!-- Image Header -->
+<mj-section full-width="full-width" background-color="#E8223E">
+  <mj-column width="600">
+    <mj-image
+      width="200"
+      padding="30 15"
+      align="center"
+      src="http://placehold.it/200x80?text=YOUR+LOGO+HERE" />
+    <mj-text
+      mj-class="h1"
+      align="center">
+      Newsletter title here
+    </mj-text>
+    <mj-text
+      color="#fff"
+      mj-class="h2"
+      align="center"
+      padding="15 15 45">
+      my subltitle here
+    </mj-text>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,31 @@
+<!-- main.mjml -->
+<mjml>
+  <mj-head>
+    <!--include head for mjml-classes, mjml-styles, mjml-fonts and mjml-title -->
+    <mj-include path="./template-parts/head.mjml" />
+  </mj-head>
+  <mj-body>
+    <mj-container>
+      <!--include header-->
+      <mj-include path="./template-parts/header" />
+
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="h4">Hello World !</mj-text>
+
+          <mj-text>Use this template for your own needs !</mj-text>
+          <mj-button
+            background-color="#F63A4D"
+            align="center"
+            mj-class="sans-serif caps"
+            href="#">
+            Click-me !
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!--include footer-->
+      <mj-include path="./template-parts/footer" />
+    </mj-container>
+  </mj-body>
+</mjml>
