@@ -1,4 +1,4 @@
-# Politis MJML email templates
+# NPM MJML email template
 
 This is a simple project to scaffold an email template from an MJML code.
 
