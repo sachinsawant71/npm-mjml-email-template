@@ -8,7 +8,7 @@
     "url": "git+https://github.com/washaweb/npm-mjml-email-template.git"
   },
   "scripts": {
-    "build": "mjml -r src/template.mjml -o build/template.html && open build/template.html",
+    "build": "mkdir -p ./build && mjml -r src/template.mjml -o build/template.html && open build/template.html",
     "watch": "mjml -r src/template.mjml -o build/template.html && open build/template.html && mjml -w src/template.mjml -o build/template.html",
     "test": "node sendmail.js"
   },
